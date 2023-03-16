@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="images/favicon.ico" />
+        <link rel="icon" href="favicon.ico" />
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -19,13 +19,13 @@
                 theme: {
                     extend: {
                         colors: {
-                            laravel: "#1e40af",
+                            laravel: "#ffb74d",
                         },
                     },
                 },
             };
         </script>
-        <title>YouJobs | Find Laravel Jobs & Projects</title>
+        <title>Les Shoe Shack</title>
     </head>
     <body class="mb-48">
         <nav class="flex justify-between items-center mb-4">
@@ -40,14 +40,14 @@
                 <li>
                     <a href="/listings/manage" class="hover:text-laravel"
                         ><i class="fa-solid fa-gear"></i>
-                        Manage Listings</a
+                        <span class="hidden md:inline">Manage Products</span></a
                     >
                 </li>
                 <li>
                     <form class="inline" method="POST" action="/logout">
                     @csrf
                     <button type="submit">
-                        <i class="fa-solid fa-door-closed"></i>Logout
+                        <i class="fa-solid fa-arrow-right-from-bracket"></i></i><span class="hidden md:inline"> Logout</span>
                     </button>
                     </form>
                 </li>
@@ -70,14 +70,14 @@
             {{$slot}}
         </main>
         <footer
-            class="fixed bottom-0 left-0 w-full flex items-center justify-start font-bold bg-laravel text-white h-24 mt-24 opacity-90 md:justify-center"
+            class="fixed bottom-0 left-0 w-full flex items-center justify-start font-bold bg-laravel text-black h-24 mt-24 opacity-90 md:justify-center"
         >
             <p class="ml-2">Copyright &copy; 2023, All Rights reserved</p>
 
             <a
                 href="/listings/create"
                 class="absolute top-1/3 right-10 bg-black text-white py-2 px-5"
-                >Post Job</a
+                >Post Footwear</a
             >
         </footer>
         <x-flash-message />

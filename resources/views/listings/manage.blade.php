@@ -2,7 +2,7 @@
   <x-card class="p-10">
     <header>
         <h1 class="text-3xl text-center font-bold my-6 uppercase">
-            Manage Jobs
+            Manage Footwears
         </h1>
     </header>
 
@@ -13,7 +13,7 @@
 
             <tr class="border-gray-300">
                 <td class="px-4 py-8 border-t border-b border-gray-300 text-lg">
-                    <a href="/listings/{{$listing->id}}"> {{$listing->title}} </a>
+                    <a href="/listings/{{$listing->id}}"> {{$listing->name}} </a>
                 </td>
                 <td class="px-4 py-8 border-t border-b border-gray-300 text-lg">
                     <a href="/listings/{{$listing->id}}/edit" class="text-blue-400 px-6 py-2 rounded-xl"><i class="fa-solid fa-pen-to-square"></i>
@@ -32,9 +32,21 @@
             @endforeach
             @else
             <tr class="border-gray-300">
-                <td class="px-4 py-8 border-t border-b border-gray-300 text-lg">
-                  <p class="text-center">No Listings Found</p>                  
-                </td>                
+                <th class="px-4 py-8 border-t  border-gray-300 text-lg">
+                  <p class="text-center">No Products Found</p>  
+                                  
+                </th>
+                          
+            </tr>
+            <tr class="border-gray-300">
+                <th class="px-4 py-8  border-b border-gray-300 text-lg">
+                    <a
+                    href="/listings/create"
+                    class=" px-6 py-4 bg-laravel text-white hover:bg-orange-400 rounded-xl"
+                    >Post Footwear</a> 
+                                  
+                </th>
+                          
             </tr>
             @endunless
         </tbody>

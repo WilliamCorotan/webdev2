@@ -43,7 +43,7 @@ class User extends Authenticatable
     ];
 
     //Relationship with listings
-    public function listings() {
-        return $this->hasMany(Listing::class, 'user_id');
+    public function footwear() {
+        return $this->hasMany(Footwear::class, 'user_id');
     }
 }

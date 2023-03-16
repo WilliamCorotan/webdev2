@@ -78,7 +78,7 @@
       <div class="mb-6">
           <button
               type="submit"
-              class="bg-laravel text-white rounded py-2 px-4 hover:bg-blue-600"
+              class="bg-laravel text-white rounded py-2 px-4 hover:bg-orange-400"
           >
               Sign Up
           </button>
