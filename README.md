@@ -16,15 +16,15 @@ For Controllers
 <br/>-- **app/Http/Controllers/**
 
 For HTML Templates
-**-- **resources/views/components/ (for components)\*\*
-**-- **resources/views/listings/ (for product related html templates)**
-<br/>-- **resources/views/partials/ (for partials)\*\*
+<br/> -- **resources/views/components/ (for components)**
+<br/> -- **resources/views/listings/ (for product related html templates)**
+<br/> -- **resources/views/partials/ (for partials)**
 
 For Routing
-<br/>-- **routes/web.php**
+<br/> -- **routes/web.php**
 
 For Assets
-<br/>-- **public/images/**
+<br/> -- **public/images/**
 
 ## Contributing
 
