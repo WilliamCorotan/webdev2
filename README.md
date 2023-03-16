@@ -10,21 +10,21 @@
 ## Folders to modify
 
 For Models
--- **app/Models/**
+\_\_-- **app/Models/**
 
 For Controllers
--- **app/Http/Controllers/**
+\_\_-- **app/Http/Controllers/**
 
 For HTML Templates
--- **resources/views/components/ (for components)**
--- **resources/views/listings/ (for product related html templates)**
--- **resources/views/partials/ (for partials)**
+**-- **resources/views/components/ (for components)**
+**-- **resources/views/listings/ (for product related html templates)**
+\_\_-- **resources/views/partials/ (for partials)**
 
 For Routing
--- **routes/web.php**
+\_\_-- **routes/web.php**
 
 For Assets
--- **public/images/**
+\_\_-- **public/images/**
 
 ## Contributing
 
